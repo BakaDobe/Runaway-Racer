@@ -14,6 +14,8 @@ public class Portal extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        if(isTouching(RC.class)){
+            Greenfoot.setWorld(new BridgeWorld());
+        }
     }    
 }

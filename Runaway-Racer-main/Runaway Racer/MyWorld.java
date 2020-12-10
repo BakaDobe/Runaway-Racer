@@ -17,12 +17,18 @@ public class MyWorld extends World
         prepare();
     }
 
+    public void act()
+    {
+        
+    }
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
      */
     private void prepare()
     {
-        
+
+        RC rC = new RC();
+        addObject(rC,250,273);
     }
 }
