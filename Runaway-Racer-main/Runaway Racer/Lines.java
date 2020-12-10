@@ -1,21 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Portal here.
+ * Write a description of class Lines here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Portal extends Actor
+public class Lines extends Actor
 {
     /**
-     * Act - do whatever the Portal wants to do. This method is called whenever
+     * Act - do whatever the Lines wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        if(isTouching(RC.class)){
-            Greenfoot.setWorld(new BridgeWorld());
-        }
+        // Add your action code here.
     }    
 }

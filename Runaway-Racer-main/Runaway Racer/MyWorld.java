@@ -19,7 +19,14 @@ public class MyWorld extends World
 
     public void act()
     {
-        
+       if (Greenfoot.getRandomNumber(100) < 1)
+        {
+            addObject(new Enemy(), 599, Greenfoot.getRandomNumber(399));
+        } 
+       if (Greenfoot.getRandomNumber(100) < 1)
+        {
+            addObject(new Enemy2(), 599, Greenfoot.getRandomNumber(399));
+        }
     }
     /**
      * Prepare the world for the start of the program.
