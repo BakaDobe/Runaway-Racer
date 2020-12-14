@@ -35,7 +35,9 @@ public class StartScreen extends World
     public void act(){
         if(Greenfoot.isKeyDown("enter"))
         Greenfoot.setWorld(new GameWorld());
-        
-        
+        if(Greenfoot.isKeyDown("c"))
+        Greenfoot.setWorld(new Credit());
+        if(Greenfoot.isKeyDown("i"))
+        Greenfoot.setWorld(new Control());
     }
 }
